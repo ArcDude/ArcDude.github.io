@@ -12,3 +12,17 @@
 	padding-bottom: 500px; /* This is spacer before the Main title Logo */
 	color: #fff;
 }
+
+
+@media (min width:500px) {
+	.everything {
+		width: 500px;
+		height: 323px;
+	}
+}
+@media (max width:499px) {
+	.everything {
+		width: 300px;
+		height: 297px;
+	}
+}
